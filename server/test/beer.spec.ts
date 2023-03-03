@@ -4,7 +4,7 @@ import { promises as fs } from "fs";
 import { Beer } from "../app/models/beer";
 
 //Rewire needed to access non exported (internal) functions
-var beerFunctions = rewire("../app/beer/functions.ts");
+var beerFunctions = rewire("../app/application/beer.ts");
 var buildBeerNameParam = beerFunctions.__get__("buildBeerNameParam");
 var mapBeerData = beerFunctions.__get__("mapBeerData");
 
