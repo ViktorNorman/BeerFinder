@@ -1,0 +1,23 @@
+{
+  "name": "nuverica",
+  "version": "1.0.0",
+  "description": "\"If I saved all the money I spent on beer, I'd spend it on beer.\" This repo is a very important application that lists beers from the PunkApi (https://punkapi.com/documentation/v2).",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd client && npm run dev\" \"cd server && nodemon app/index.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktorNorman/BeerFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViktorNorman/BeerFinder/issues"
+  },
+  "homepage": "https://github.com/ViktorNorman/BeerFinder#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "ts-node": "^10.9.1"
+  }
+}

@@ -1,0 +1,2 @@
+export const NEGATIVE_INCREMENT_ONE = -1;
+export const POSITIVE_INCREMENT_ONE = 1;
